@@ -16,9 +16,9 @@ Octave and [MATLAB PDE and FEM Toolbox](https://www.featool.com).
 
 Note that a Julia implementation of this DistMesh version is also
 available in the
-[DistMesh-Julia repository](https://github.com/precisesimulation/distmesh-julia)
+[DistMesh-Julia repository](https://github.com/precise-simulation/distmesh-julia)
 as well as
-[QuadMesh - unstructured quadrilateral mesh generation based on distance functions](https://github.com/precisesimulation/quadmesh).
+QuadMesh - unstructured quadrilateral mesh generation based on distance functions.
 
 <table align="center">
 <tr>
@@ -96,7 +96,7 @@ Usage
 -----
 
 To use the this mesh generation code, simply download the stand alone
-[distmesh](https://github.com/precisesimulation/distmesh/blob/master/distmesh.m)
+[distmesh](https://github.com/precise-simulation/distmesh/blob/master/distmesh.m)
 source code and run it in MATLAB or Octave. The function syntax is as follows
 
     [ P, T, STAT ] = DISTMESH( FD, FH, H0, BBOX, P_FIX, E_FIX, IT_MAX, FID, FIT )
@@ -149,7 +149,7 @@ Examples
 
 To automatically run the collection of basic mesh generation examples
 described below, type
-[distmesh_demo](https://github.com/precisesimulation/distmesh/blob/master/distmesh_demo.m)
+[distmesh_demo](https://github.com/precise-simulation/distmesh/blob/master/distmesh_demo.m)
 into the MATLAB or Octave CLI command prompts from the directory where
 the _distmesh_ files can be found.
 
@@ -261,7 +261,7 @@ Alternative Implementations
 
 [5] [libDistMesh: A Simple Mesh Generator in C++](https://github.com/pgebhardt/libdistmesh)
 
-[6] [DistMesh-Julia - Julia Mesh Generation with DistMesh](https://github.com/precisesimulation/distmesh-julia)
+[6] [DistMesh-Julia - Julia Mesh Generation with DistMesh](https://github.com/precise-simulation/distmesh-julia)
 
 [7] [PyDistMesh - A Simple Mesh Generator in Python](https://github.com/bfroehle/pydistmesh)
 
